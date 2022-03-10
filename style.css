@@ -1,12 +1,58 @@
 .display{
-    height: 50px;
-    width: 250px;
+    height: 50%;
+    width: 100%;
+    background-color: antiquewhite; 
+}
+
+body{
+    height: 100vh;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.display1{
+    height: 50%;
+    width: 100%;
     background-color: antiquewhite;
-    border: 1px solid;
+   
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#zero{
+    width: 65%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+.right{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 80px;
+
+}
+
+.except{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+button{
+    height : 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: none;
 }
 .buttonsNumber{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .first .second .third{
@@ -14,6 +60,25 @@
 }
 
 .numbers{  
-    height: 20px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
+}
+
+.bigdisplay{
+    height: 40px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.operators{
+    margin-bottom: 8px;
+    background-color: orange;
+    border: none;
+    
+}
+
+.equal{
+    background-color: azure;
 }
